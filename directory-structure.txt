@@ -1,0 +1,19 @@
+.
+├── credentials
+├── data
+├── directory-structure.txt
+├── dist
+├── downloads
+├── logs
+├── media
+├── network
+├── objects
+├── programs
+├── projects
+│   └── Codenames -> /Users/asmart/Codenames
+├── run
+├── shared
+├── tasks
+└── tmp
+
+15 directories, 1 file
