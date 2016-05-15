@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "jscs": "^3.0.3",
+    "jshint": "^2.9.2",
     "traceur": "0.0.108"
   }
 }
