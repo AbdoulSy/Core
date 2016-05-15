@@ -1,0 +1,20 @@
+{
+  "name": "unit",
+  "version": "1.0.0",
+  "description": "The Class Unit For all units of the js Architecture of AbdoulSy/Core",
+  "main": "unit.js",
+  "scripts": {
+    "test": "node unit-test.js"
+  },
+  "keywords": [
+    "Unit",
+    "Core",
+    "JS",
+    "Architecture"
+  ],
+  "author": "Abdoul Sy <hello@abdoulsy.eu>",
+  "license": "MIT",
+  "dependencies": {
+    "traceur": "0.0.108"
+  }
+}
