@@ -23,25 +23,52 @@ To create this interface, I assume these points :
 
 The interface of a Core object should look like this
 
-   Interface <CoreInterface>
-    + String getDocumentationURI ()
-    + String getVersion ()
-    + String getAuthor ()
-    + String getCommitId ()
-    + String getErrorFormat ()
-    + String getExample ()
-    + String getPurpose ()
-    + String getName ()
-    + String getDependencyList ()
-    + String getLang ()
-    + String test ()
-    + Function onLoad ()
-    + Function onCompile ()
-    + Function onDestroy ()
-    + Function render ()
-    + Function update ()
-    + Function next ()
-    + Function parent ()
-    
+     Interface <CoreInterface>
+      + private configuration
+      + String getDocumentationURI ()
+      + String getVersion ()
+      + String getAuthor ()
+      + String getCommitId ()
+      + String getErrorFormat ()
+      + String getExample ()
+      + String getPurpose ()
+      + String getName ()
+      + String getDependencyList ()
+      + String getLang ()
+      + String test ()
+      + Function onLoad ()
+      + Function onBuild ()
+      + Function onCompile ()
+      + Function onDestroy ()
+      + Function render ()
+      + Function update ()
+      + Function next ()
+      + Function parent ()
+      + String getCodeStyleUrl () 
+      + String getOldesSetupTutorialUrl ()
+      + String getCodeStyleReport ()
+      + String getLintReport () 
+      + String getTestSetupUrl () 
+      + String getTestReportUrl ()
+      + String getNode ()
+      + String getMetadata ()
+      + String getVisualisation ()
+      + String getIssues ()
+      + String build ()
+      + String publish 
+      + String test 
+      + String install 
+      + String render 
+      + String getInfoUrl 
+      + String toString 
+      + String getHelpUrl 
+      + String getVersion 
+      + String getTrackerUrl 
+      + String getBuildParent 
+      + String getDocumentation 
+ 
+## The Interface's Configuration
+As long as a programming language can generate this kind of structure extending from a app.configuration file:
+the programming should extend from this structure to make sense in the Aria-Ontology Universe
 
 
